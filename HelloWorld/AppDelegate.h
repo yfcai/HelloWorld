@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SystemEvents.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    SystemEventsApplication *sys;
+}
 
 @property (assign) IBOutlet NSWindow *window;
-
+- (IBAction)logFullName:(id)sender;
+- (IBAction)activateChrome:(id)sender;
 @end

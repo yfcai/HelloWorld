@@ -18,6 +18,7 @@
 		22A8D47818DC9E1500ECB851 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8D45718DC9E1500ECB851 /* Cocoa.framework */; };
 		22A8D48018DC9E1500ECB851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A8D47E18DC9E1500ECB851 /* InfoPlist.strings */; };
 		22A8D48218DC9E1500ECB851 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8D48118DC9E1500ECB851 /* HelloWorldTests.m */; };
+		22A8D48C18DCBB1400ECB851 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8D48B18DCBB1400ECB851 /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		22A8D47D18DC9E1500ECB851 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		22A8D47F18DC9E1500ECB851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22A8D48118DC9E1500ECB851 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		22A8D48B18DCBB1400ECB851 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = ../../../../System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<group>"; };
+		22A8D48F18DCC22000ECB851 /* SystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemEvents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A8D45818DC9E1500ECB851 /* Cocoa.framework in Frameworks */,
+				22A8D48C18DCBB1400ECB851 /* ScriptingBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +99,7 @@
 		22A8D45618DC9E1500ECB851 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22A8D48B18DCBB1400ECB851 /* ScriptingBridge.framework */,
 				22A8D45718DC9E1500ECB851 /* Cocoa.framework */,
 				22A8D47618DC9E1500ECB851 /* XCTest.framework */,
 				22A8D45918DC9E1500ECB851 /* Other Frameworks */,
@@ -115,6 +120,7 @@
 		22A8D45D18DC9E1500ECB851 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				22A8D48F18DCC22000ECB851 /* SystemEvents.h */,
 				22A8D46918DC9E1500ECB851 /* AppDelegate.h */,
 				22A8D46A18DC9E1500ECB851 /* AppDelegate.m */,
 				22A8D46C18DC9E1500ECB851 /* MainMenu.xib */,
