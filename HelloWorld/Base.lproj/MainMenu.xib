@@ -697,6 +697,28 @@
                             <action selector="logFullName:" target="Voe-Tx-rLC" id="27o-SH-9f9"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pWm-NH-O29">
+                        <rect key="frame" x="14" y="246" width="261" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="log system preferences ui elements" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mFi-J6-ZMW">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="logUIElements:" target="Voe-Tx-rLC" id="teX-Do-RMD"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpm-sV-PnZ">
+                        <rect key="frame" x="14" y="211" width="249" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="pop up a blue square somewhere" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="oTc-lJ-Baq">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="popUpAWindowSomewhere:" target="Voe-Tx-rLC" id="m1F-jB-ivL"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
         </window>

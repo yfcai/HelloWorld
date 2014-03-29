@@ -19,6 +19,7 @@
 		22A8D48018DC9E1500ECB851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A8D47E18DC9E1500ECB851 /* InfoPlist.strings */; };
 		22A8D48218DC9E1500ECB851 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8D48118DC9E1500ECB851 /* HelloWorldTests.m */; };
 		22A8D48C18DCBB1400ECB851 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8D48B18DCBB1400ECB851 /* ScriptingBridge.framework */; };
+		22E0E69E18E74A2D002F7620 /* Hint.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E0E69D18E74A2D002F7620 /* Hint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		22A8D48118DC9E1500ECB851 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
 		22A8D48B18DCBB1400ECB851 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = ../../../../System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<group>"; };
 		22A8D48F18DCC22000ECB851 /* SystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemEvents.h; sourceTree = "<group>"; };
+		22E0E69C18E74A2D002F7620 /* Hint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hint.h; sourceTree = "<group>"; };
+		22E0E69D18E74A2D002F7620 /* Hint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				22A8D46C18DC9E1500ECB851 /* MainMenu.xib */,
 				22A8D46F18DC9E1500ECB851 /* Images.xcassets */,
 				22A8D45E18DC9E1500ECB851 /* Supporting Files */,
+				22E0E69C18E74A2D002F7620 /* Hint.h */,
+				22E0E69D18E74A2D002F7620 /* Hint.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E0E69E18E74A2D002F7620 /* Hint.m in Sources */,
 				22A8D46B18DC9E1500ECB851 /* AppDelegate.m in Sources */,
 				22A8D46418DC9E1500ECB851 /* main.m in Sources */,
 			);
@@ -472,6 +478,7 @@
 				22A8D48718DC9E1500ECB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A8D48818DC9E1500ECB851 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				22A8D48A18DC9E1500ECB851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
